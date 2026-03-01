@@ -95,7 +95,7 @@ Reads `dev.txt` (and optionally `baseline_dev.txt`), prints counts, confusion ma
 - `output/dev_confusion_matrix.png` — confusion matrix plot  
 - `output/error_analysis_examples.tsv` — stratified comparison vs baseline (if `baseline_dev.txt` exists)
 
-**`dev.txt` format:** either (1) one prediction per line (0 or 1), same order as the dev set, or (2) TSV with header `label_binary\tpred_label`.
+**`dev.txt` format:** one prediction per line (0 or 1), same order as the dev set.
 
 Run from the **project root**:
 
